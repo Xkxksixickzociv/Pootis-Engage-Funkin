@@ -1,0 +1,129 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "soldier idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-81,
+				-5
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "soldier down",
+			"indices": [
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-37,
+				3
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "soldier up",
+			"indices": [
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10
+			]
+		},
+		{
+			"offsets": [
+				50,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "attack",
+			"indices": [],
+			"name": "soldier attack"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-20,
+				0
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "soldier left",
+			"indices": [
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-70,
+				0
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "soldier right",
+			"indices": [
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				9,
+				8
+			]
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/soldier",
+	"position": [
+		-420,
+		0
+	],
+	"healthicon": "soldier",
+	"flip_x": false,
+	"healthbar_colors": [
+		129,
+		193,
+		255
+	],
+	"camera_position": [
+		-450,
+		-60
+	],
+	"sing_duration": 6.1,
+	"scale": 1.1
+}
